@@ -1,0 +1,82 @@
+.weight-shop{
+    min-height: 300px;
+}
+.color-shop{
+    background-color: #EDF1FF;
+}
+.bg-color-product{
+    background-color: #D19C97;
+}
+.text-product{
+    color:white;
+}
+.bg-color-product-all{
+    background-color: #E8E0E0;
+}
+  
+  @media (min-width: 576px) {
+    .card-deck {
+      display: flex;
+      flex-flow: row wrap;
+      margin-right: -15px;
+      margin-left: -15px;
+    }
+    .card-deck .card {
+      flex: 1 0 0%;
+      margin-right: 15px;
+      margin-bottom: 0;
+      margin-left: 15px;
+    }
+  }
+  
+  .card-group > .card {
+    margin-bottom: 15px;
+  }
+  
+  @media (min-width: 576px) {
+    .card-group {
+      display: flex;
+      flex-flow: row wrap;
+    }
+    .card-group > .card {
+      flex: 1 0 0%;
+      margin-bottom: 0;
+    }
+    .card-group > .card + .card {
+      margin-left: 0;
+      border-left: 0;
+    }
+  }
+  
+  .card-columns .card {
+    margin-bottom: 0.75rem;
+  }
+  
+  @media (min-width: 576px) {
+    .card-columns {
+      column-count: 3;
+      column-gap: 1.25rem;
+      orphans: 1;
+      widows: 1;
+    }
+    .card-columns .card {
+      display: inline-block;
+      width: 100%;
+    }
+  }
+  
+  .accordion {
+    overflow-anchor: none;
+  }
+  
+  .accordion > .card {
+    overflow: hidden;
+  }
+  
+  .accordion > .card:not(:last-of-type) {
+    border-bottom: 0;
+  }
+  
+  .accordion > .card > .card-header {
+    margin-bottom: -1px;
+  }

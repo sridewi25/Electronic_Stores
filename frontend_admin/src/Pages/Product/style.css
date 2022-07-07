@@ -1,0 +1,23 @@
+.bg-color-product-admin{
+    background-color: #E8E0E0;
+}
+.submit-btn-product button{
+    box-sizing: border-box;
+    background-color:#D19C97 ;
+    border: 3px solid #D19C97; 
+    border-radius: 20px;
+    color: white;
+    font-weight: bold;
+    width: 240px;
+    height: 40px;
+    text-align: center;
+  }
+  
+  .submit-btn-product{
+    text-align: center;
+    padding-top:10px;
+    padding-bottom: 20px;
+  }
+  img{
+    padding-right: 50px;
+}
